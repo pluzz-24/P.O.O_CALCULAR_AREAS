@@ -17,4 +17,8 @@ public class Cuadrado {
     public double calcularArea() {
         return lado * lado;
     }
+
+    public double calcularPerimetroCuadrado(){
+        return lado * 4;
+    }
 }
